@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IMC CALCULATOR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Edad">Edad: %d años</string>
+    <string name="Altura">Altura: %.2f m</string>
+    <string name="Peso">Peso: %.1f Kg</string>
+    <string name="Genero">Genero</string>
+    <string name="Calculadora">Calculadora</string>
+        <string name="Resultado">Resultado</string>
+</resources>

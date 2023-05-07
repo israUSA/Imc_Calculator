@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="AlertDialogCustom" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">-->
+<!--        <item name="android:textColor">@android:color/white</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:headerDividersEnabled">true</item>-->
+<!--        <item name="android:background">@android:color/holo_blue_dark</item>-->
+<!--        <item name="android:textSize">30sp</item>-->
+<!--        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline3</item>-->
+
+<!--    </style>-->
+
+<!--    <style name="MaterialAlertDialog.MaterialComponents.Body.Text" parent="TextAppearance.MaterialComponents.Body2">-->
+<!--        <item name="android:textAppearance">?attr/textAppearanceBody2</item>-->
+<!--        <item name="android:textColor">@color/material_on_surface_emphasis_medium</item>-->
+<!--    </style>-->
+
+
+        <style name="MyTitle_MaterialAlertDialog" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textAppearance">@style/MyTitle_TextAppearance.MaterialComponents.Subtitle1</item>
+    </style>
+
+    <style name="MyTitle_TextAppearance.MaterialComponents.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">.....</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">....</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="BodyTextAppearance.MaterialComponents.Body1" parent="@style/MaterialAlertDialog.MaterialComponents.Body.Text">
+
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontFamily">.....</item>
+        <item name="android:fontFamily">....</item>
+    </style>
+
+    <style name="BodyTextAppearance.MaterialComponents.Body2" parent="@style/MaterialAlertDialog.MaterialComponents.Body.Text">
+
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">.....</item>
+        <item name="android:fontFamily">....</item>
+    </style>
+
+
+</resources>

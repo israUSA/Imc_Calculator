@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#C3D350</color>
+    <color name="primaryColorD"> #333333</color>
+    <color name="onPrimaryColorD">#ffffff</color>
+    <color name="secondaryColorD">#7f5600</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="masculino">#1C5D99</color>
+    <color name="femenino">#FE64A3</color>
+
+
+</resources>

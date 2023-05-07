@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.imccalculator.StartFragment"
+        tools:layout="@layout/fragment_start">
+        <action
+            android:id="@+id/action_startFragment_to_generoFragment"
+            app:destination="@id/generoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/generoFragment"
+        android:name="com.example.imccalculator.GeneroFragment"
+        android:label="@string/Genero"
+        tools:layout="@layout/fragment_genero">
+        <action
+            android:id="@+id/action_generoFragment_to_calculadoraFragment"
+            app:destination="@id/calculadoraFragment" />
+        <action
+            android:id="@+id/action_generoFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calculadoraFragment"
+        android:name="com.example.imccalculator.CalculadoraFragment"
+        android:label="@string/Calculadora"
+        tools:layout="@layout/fragment_calculadora">
+        <action
+            android:id="@+id/action_calculadoraFragment_to_resultadoFragment"
+            app:destination="@id/resultadoFragment" />
+        <action
+            android:id="@+id/action_calculadoraFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadoFragment"
+        android:name="com.example.imccalculator.ResultadoFragment"
+        android:label="@string/Resultado"
+        tools:layout="@layout/fragment_resultado">
+        <action
+            android:id="@+id/action_resultadoFragment_to_startFragment"
+            app:destination="@id/startFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
